@@ -8,7 +8,7 @@ import GlobalState from './store/GlobalState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='/Food_Recipe_App'>
   <React.StrictMode>
     <GlobalState><App /></GlobalState>
   </React.StrictMode>
